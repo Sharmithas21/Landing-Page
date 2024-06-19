@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="page">
+        <div class="title">
+            <h1>|&nbsp;W&nbsp;A&nbsp;T&nbsp;C&nbsp;H<br>|&nbsp;B&nbsp;O&nbsp;U&nbsp;T&nbsp;I&nbsp;Q&nbsp;U&nbsp;E&nbsp;S</h1>
+        </div>
+    <div class="navigation">
+        <ul>
+            <li>HOME</li>
+            <li>FEATURES</li>
+            <li>PRODUCTS</li>
+            <li>REVIEWS</li>
+            <li>BLOG</li>
+            <li>CONTACT US</li>  
+        </ul>
+    </div>
+    <div class="background">
+        <img src="newbg.jpeg" alt="image">
+
+    </div>
+    <div class="slogan">
+        <p>&nbsp;&nbsp;The Perfect Moment <br>&nbsp; Between Past And Future</p>
+    </div>
+    <div class="buynow">
+        <button>&nbsp;&nbsp;SHOP NOW&nbsp;&nbsp;</button>
+    </div>
+</div>  
+<div id="countdown">
+<script>
+const endTime = new Date().getTime() + 9 * 60 * 60 * 1000;
+
+function updateCountdown() {
+const currentTime = new Date().getTime();
+const timeLeft = endTime - currentTime;
+
+if (timeLeft <= 0) {
+document.getElementById("countdown").innerHTML = "Product is sold out!";
+} else {
+const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+document.getElementById("countdown").innerHTML = `Sale Ends In ${hours} h : ${minutes} m : ${seconds} s`;
+}
+}
+setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>
+</div>
+<div class="best">
+    <h1>BEST SELLER</h1>
+</div>
+<div class="content">
+    <div class="columns">
+        <div class="items">
+            <img src="omega1.jpeg" alt="omega">
+            <p>Omega Watch Sea master Driver 300M </p>
+            <p>₹4,599.00 <del>₹5,699.00</del></p>
+        </div>
+        <div class="items">
+            <img src="panerai.jpeg" alt="panerai">
+            <p>Panerai Luminor Rugged Mechanical </p>
+            <p>₹4,599.00 <del>₹5,699.00</del></p>
+        </div>
+        <div class="items">
+            <img src="rolex3.jpeg" alt="rolex">
+            <p>Rolex Daytona Rainbow Red Men's</p>
+            <p>₹8,500.00 <del>₹9,299.00</del></p>
+        </div>
+        <div class="items">
+            <img src="penarosa.jpeg" alt="piraso">
+            <p>Piraso Analog Black Dial Men's Watch</p>
+            <p>₹2,599.00 <del>₹3,699.00</del></p>
+        </div>
+        <div class="items">
+            <img src="caalvink.jpeg" alt="calvin">
+            <p>Calvin Klein Iconic Black Dial Watch </p>
+            <p>₹8,599.00 <del>₹9,699.00</del></p>
+        </div>
+        <div class="items">
+            <img src="citizen.jpeg" alt="citizen">
+            <p>Citizen Quartz Black Wrist Watch </p>
+            <p>₹4,599.00 <del>₹5,699.00</del></p>
+        </div>
+    </div>
+        <div class="best">
+        <h1>MEN'S WATCHES</h1>
+    </div>
+    <div class="men">
+    <div class="items">
+        <img src="cartier2.jpeg" alt="citizen">
+        <p>Cartier Skeleton Watch For Men</p>
+        <p>₹2,599.00 <del>₹3,699.00</del></p>
+        </div>
+        <div class="items">
+        <img src="nomos1.jpeg" alt="citizen">
+        <p>Nomos Glashutte Club 767</p>
+        <p>₹8,599.00 <del>₹9,999.00</del></p>
+        </div>  
+        <div class="items">
+            <img src="breitling1.jpeg" alt="citizen">
+            <p>Breitling Superocean li 44</p>
+            <p>₹9,099.00 <del>₹9,999.00</del></p>
+        </div>
+        <div class="items">
+            <img src="momega.jpeg" alt="citizen">
+            <p>Omega Speedmaster Broad Arrow Rattrapante</p>
+            <p>₹2,599.00 <del>₹3,699.00</del></p>
+        </div>
+        <div class="items">
+        <img src="fossil.jpeg" alt="citizen">
+        <p>Fossil Es4682 Machine Watch</p>
+        <p>₹6,599.00 <del>₹7,999.00</del></p>
+        </div>
+        <div class="items">
+        <img src="fastrack.jpeg" alt="citizen">
+        <p>Fastrack 3287NM01-Watch For Men</p>
+        <p>₹3,035.00 <del>₹4,099.00</del></p>
+        </div>
+    </div>
+    <div class="para">
+        <h1>HOW CAN WE HELP YOU? </h1>
+        <p>Get in touch with us by below informations.We're also available by phone <br> Monday-Saturday,10am to 6 pm IST. We would love to hear your suggestions,<br> queries and tips.</p>
+    </div>
+    <div class="icons">
+        <i class="fa">&#xf0e0;</i>
+        <p>EMAIL US<br><a href="#" style="line-height:30px;">wb.support@tenxcommerce.com</a></p>
+    </div>
+    <div class="icons">
+        <i class="fa">&#x260E;</i>
+        <p>CALL US<br><a href="#" style="line-height:30px;">022 67854342</a></p>
+        
+    </div>
+    </div>  
+
+</body>
+</html>
+    

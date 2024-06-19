@@ -1,0 +1,154 @@
+body
+{
+    overflow-y: scroll;
+}
+.page .title h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 40px;
+}
+.page .navigation ul
+{  
+    margin-left: 650px;
+}
+.page .navigation ul li
+{
+    float: left;
+    padding: 8px;
+    list-style-type:none;
+}
+.page .background img
+{
+    margin-top: 25px;
+    width: 100%;
+}
+.page .slogan p
+{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+.page .buynow button
+{
+    text-align: center;
+    background-color: white;
+    margin-left: 45%;
+    padding: 10px;
+}
+#countdown
+{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.best h1
+{
+    text-align: center;
+}
+.content
+{
+    padding: 10px 20px;
+}
+.content .columns 
+{
+    display: flex;
+    grid: 10px;
+    gap: 10px;
+}
+.content .columns .items 
+{   
+    width: 150px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 20px;
+}
+.content .columns .items  img 
+{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.content .columns .items p
+{
+    color: rgb(204, 197, 197);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .columns .items h1
+{
+    color: white;
+    font-size:20px ;
+    text-align: center;
+}
+.content .men
+{
+    display: flex;
+    grid: 10px;
+    gap: 10px;
+}
+.content .men .items 
+{   
+    width: 180px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+.content .men .items  img 
+{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.content .men .items p
+{
+    color: rgb(204, 197, 197);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .men .items h1
+{
+    color: white;
+    font-size:20px ;
+    text-align: center;
+}
+.para h1 
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing:0.8px ;
+}
+.para p 
+{   font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing:0.5px;
+    line-height: 28px;
+}
+.icons .fa
+{
+    color: black;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 48%;
+}
+.icons p
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.icons a
+{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
